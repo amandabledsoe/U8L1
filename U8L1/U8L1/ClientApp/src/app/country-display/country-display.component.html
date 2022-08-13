@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <td>COUNTRY NAME</td>
+      <td>OFFICIAL LANGUAGE</td>
+      <td>HELLO WORLD! TRANSLATION</td>
+      <td>DISPLAY COLORS</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let country of myListOfCountries">
+      <td>{{country.Name}}</td>
+      <td>{{country.OfficialLanguage}}</td>
+      <td>{{country.HelloWorldTranslation}}</td>
+      <td>TBD</td>
+    </tr>
+  </tbody>
+</table>
